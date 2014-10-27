@@ -1,0 +1,21 @@
+# Configuration file for nmfParser
+# "C:\\Nemo\input\\test"
+inputPath="E:\repository\csvReader\input"        
+inputFile=
+        
+filePrefix="t800MHz_"
+fileExtension=".nmf"
+        
+outputPath="E:\repository\csvReader\output"
+        
+nemoHeaders=GPS,TAD,CELLMEAS
+        
+# 7:LTE-FDD, 20:WLAN
+readSystems=LTE,WLAN
+        
+# -1 : read all available LTE cells / WLAN APs
+mdt.maxNumberOfCells=-1
+mdt.maxNumberOfAPs=-1
+ 
+mdt.OutputFileName="MDTlog.csv"
+nef.OutputFileName="NEFlog.txt"
